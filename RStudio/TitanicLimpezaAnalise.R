@@ -105,7 +105,7 @@ par(mar = c(2, 2, 2, 1))
                 theme_minimal()
               
               
-              # 2.3 Idade por Gênero
+              # 2.2 Idade por Gênero
               ggplot(titanic, aes(x = Sex, y = Age, fill = Sex)) +
                 geom_boxplot() +
                 labs(
@@ -172,6 +172,7 @@ par(mar = c(2, 2, 2, 1))
 
                   
                   
+
 
 
 
